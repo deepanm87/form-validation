@@ -45,7 +45,7 @@ function storeFormData() {
         website: form.website.value,
         password: form.password.value
     }
-
+    console.log(user)
 }
 
 function processFormData(e) {
